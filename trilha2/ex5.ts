@@ -16,11 +16,11 @@ class Agenda{
     }
 }
 
-const agenda = new Agenda(["Estudar", "Trabalhar"]);
-console.log(agenda.listCompromisso());  
+const agenda1 = new Agenda(["Estudar", "Trabalhar"]);
+console.log(agenda1.listCompromisso());  
 
-agenda.addCompromisso("Ir pra Faculdade");
-console.log(agenda.listCompromisso());  
+agenda1.addCompromisso("Ir pra Faculdade");
+console.log(agenda1.listCompromisso());  
 
 
 
